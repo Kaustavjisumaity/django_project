@@ -1,0 +1,31 @@
+{% extends "blog/base.html" %}
+{% block content %}
+    <div class="jumbotron" style="color:black">
+
+       <h1 style="color:black">
+        This is the latest news
+
+        </h1>
+
+    </div>
+
+
+    <div class="container">
+        {% for new, des, i,url in mylist %}
+            <img src="{{i}}" alt="">
+            <h3>News:</h3> <a href={{url}}>{{new}}</a>
+            {{value | linebreaks}}
+
+            <h4>Description:</h4> {{des}}
+            {{value | linebreaks}}
+
+
+
+        {% endfor %}
+
+
+
+
+    </div>
+{% endblock content %}
+
