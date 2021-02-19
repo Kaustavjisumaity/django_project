@@ -27,7 +27,7 @@ SECRET_KEY = 'exhlfdat&vfum(-34*c2uroi(($ww(yo$9pv98=e6p^gl(-eoj'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['blog-newsapi.herokuapp.com/','127.0.0.1']
+ALLOWED_HOSTS = ['kmblogs.herokuapp.com/','127.0.0.1']
 
 
 # Application definition
